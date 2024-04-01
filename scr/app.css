@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Header*/
+
+html{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 45px;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.menu nav a{
+    content: " ";
+    padding: 1rem 1rem 1rem 1rem;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 200ms ease-in;
+    display: inline-block;
+    
+}
+
+.menu nav a:hover{
+    background-color: black;
+    border-bottom: 3px solid #2196f3;
+    color: #2196f3;
+    transform: scale(1.05);
+}
+
+.logo{
+    width: 20%;
+    cursor: pointer;
+}
+
+
+.logo img{
+    width: 110px;   
+}
+
+.midias{
+    
+    padding-right: 1px;
+    font-size: 25px;
+}
+
+
+.midias a {
+    padding: 1rem 1rem 1rem 1rem;
+    color: #ffffff;
+    font-weight: 600; /* grosura das letras*/
+    transition: all 200ms ease-in;
+    
+}
+
+.midias a:hover{
+    background-color: black;
+    border-bottom: 3px solid #2196f3;
+    color: #2196f3;
+}
+
+/*.logo{
+    width: 50%;
+}
+*/
+
+
+/* class topo site*/
+
+.flex{
+    display: flex;
+}
+
+section.topo{
+    padding: 60px 9%;
+}
+
+section.topo .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-site h1{
+    color: #ffffff;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.topo .topo-site p{
+    color: #ffffff;
+    margin: 40px 0;
+}
+
+.btn-contato a button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #2196f3;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #2196f3;
+    transform: scale(1.04);
+    transition: .2s;
+}
+.topo-site p {
+    line-height: 28px;
+}
+
+/*sobre mim*/
+section.min{
+    padding: 60px 9%;
+}
+
+section.min .flex{
+    align-items: center;
+    
+    /*o gap e a distancia entre a img ao texto*/
+    gap: 90px;
+}
+
+.min .mim-sobre h2{
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+
+.min .mim-sobre p{
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+.min .mim-sobre{
+    color: #ffffff;
+}
+
+.mim-sobre span{
+    color: #2196f3;
+}
+
+/*botões sociais*/
+
+.min .mim-sobre .socialzinha{
+    padding: 8px;
+}
+
+.min .mim-sobre .socialzinha button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #2196f3;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.min .mim-sobre .socialzinha button:hover{
+    box-shadow: 0px 0px 8px #2196f3;
+    transform: scale(1.05);
+    transition: .2s;
+}
