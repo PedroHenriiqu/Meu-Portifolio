@@ -172,11 +172,11 @@ section.min .flex{
 
 /*botões sociais*/
 
-.min .mim-sobre .socialzinha{
+.socialzinha{
     padding: 8px;
 }
 
-.min .mim-sobre .socialzinha button{
+.socialzinha button{
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -187,8 +187,40 @@ section.min .flex{
     margin: 0 5px;
 }
 
-.min .mim-sobre .socialzinha button:hover{
+.socialzinha button:hover{
     box-shadow: 0px 0px 8px #2196f3;
     transform: scale(1.05);
     transition: .2s;
 }
+
+/* footer : rodapé */
+
+footer{
+    padding: 20px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+footer .line-footer{
+    padding: 20px 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .line-footer p i{
+    color: #2196f3;
+    font-size: 23px;
+}
+
+footer .line-footer p a {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.borda{
+    border-top: 2px solid #2196f3;
+    width: 800px;
+}
+
