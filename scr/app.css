@@ -45,6 +45,7 @@ header{
     transition: all 200ms ease-in;
     display: inline-block;
     
+    
 }
 
 .menu nav a:hover{
@@ -76,6 +77,7 @@ header{
     color: #ffffff;
     font-weight: 600; /* grosura das letras*/
     transition: all 200ms ease-in;
+    
     
 }
 
@@ -137,7 +139,9 @@ section.topo .flex{
     line-height: 28px;
 }
 
-/*sobre mim*/
+
+
+/*-------------------------------------sobre mim------------------------------*/
 section.min{
     padding: 60px 9%;
 }
@@ -224,3 +228,38 @@ footer .line-footer p a {
     width: 800px;
 }
 
+
+/*--------------------------------- Home -------------------------------*/
+
+section.bem-vindo{
+    padding: 40px 4%;
+}
+
+section.bem-vindo .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.bem-home{
+    color: #ffffff;
+}
+
+.logo-home img{
+    width: 400px;
+    border-radius: 30px;
+}
+
+.bem-home h1{
+    margin: 8px 0px;
+    font-size: 30px;
+    color: #2196f3;
+}
+
+.bem-home h3{
+    font-size: 23px;
+}
+
+.bem-home .btn-contato{
+    margin: 20px 0px;
+}
