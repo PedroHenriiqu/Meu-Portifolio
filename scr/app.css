@@ -72,14 +72,11 @@ header{
     font-size: 25px;
 }
 
-
 .midias a {
     padding: 1rem 1rem 1rem 1rem;
     color: #ffffff;
     font-weight: 600; /* grosura das letras*/
     transition: all 200ms ease-in;
-    
-    
 }
 
 .midias a:hover{
@@ -141,7 +138,6 @@ section.topo .flex{
 }
 
 
-
 /*-------------------------------------sobre mim------------------------------*/
 section.min{
     padding: 60px 9%;
@@ -197,10 +193,10 @@ section.min .flex{
     transition: .2s;
 }
 
-/* footer : rodapé */
+/*----------------------------------- footer : rodapé ---------------------------*/
 
 footer{
-    padding: 20px 4%;
+    padding: 0px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
     justify-content: center;
     align-items: center;
@@ -208,7 +204,7 @@ footer{
 }
 
 footer .line-footer{
-    padding: 20px 0%;
+    padding: 7px 0%;
     display: flex;
     justify-content: space-between;
 }
@@ -226,6 +222,15 @@ footer .line-footer p a {
 .borda{
     border-top: 2px solid #2196f3;
     width: 800px;
+}
+
+.line-footer p {
+margin-left: 300px;
+}
+
+.logo-footer img{
+    width: 100px;
+    padding: 0px 0%;
 }
 
 
@@ -264,35 +269,6 @@ section.bem-vindo .flex{
     margin: 20px 0px;
 }
 
-/*------------------------------ Perfil / habilidades ----------------------------*/
-section.perfil{
-    padding: 60px 9%;
-}
-
-section.perfil .flex{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.tegp{
-    color: #ffffff;
-    text-align: center;
-    margin: 40px 300px;  
-}
-
-.meu-perfil h1{
-    font-size: 35px;
-    color: #ffffff;
-    margin: 10px 0px;
-}
-
-.ff{
-    width: 50px;
-    height: 50px;
-    color: #ffffff;
-    cursor: pointer;
-}
 /*---------------------------- Imagens / Habilidades ----------------------------*/
 
 section.habilidades{
@@ -310,9 +286,10 @@ section.habilidades .flex{
     font-size: 35px;
     text-align: center;
 }
+
 .hab .img-container{
     padding: 40px;
-    margin-left: 10p;
+    margin-left: 78px;
 }
 
 .imagem-com-tooltip {
@@ -343,3 +320,32 @@ section.habilidades .flex{
     visibility: visible;
     opacity: 1;
    }
+
+   .mim-sobre p span{
+    font-weight: bold;
+    color: #ffffff;
+   }
+
+   .ff{
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.hab p{
+    color: #ffffff;
+}
+
+.hab .classp{
+    padding: 45px;
+    display: flex;
+    gap: 200px;
+}
+
+.classp p span{
+    color: #2196f3;
+    font-weight: bold; /*Deixa em negrito*/
+    font-size: 40px;
+}
