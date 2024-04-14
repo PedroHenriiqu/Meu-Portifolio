@@ -23,11 +23,13 @@ html{
 header{
     background-color: rgb(0, 0, 0);
     width: 100%;
-    padding: 45px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
 }
 
 .menu{
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,13 +94,12 @@ header{
 
 
 /* class topo site*/
-
 .flex{
     display: flex;
 }
 
 section.topo{
-    padding: 60px 9%;
+    padding: 100px 9%;
 }
 
 section.topo .flex{
@@ -141,6 +142,7 @@ section.topo .flex{
 /*-------------------------------------sobre mim------------------------------*/
 section.min{
     padding: 60px 9%;
+    
 }
 
 section.min .flex{
@@ -272,12 +274,13 @@ section.bem-vindo .flex{
 /*---------------------------- Imagens / Habilidades ----------------------------*/
 
 section.habilidades{
-    padding: 60px 9%;
+    padding: 50px 9%;
 }
 
 section.habilidades .flex{
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
 
@@ -285,11 +288,12 @@ section.habilidades .flex{
     color: #ffffff;
     font-size: 35px;
     text-align: center;
+    margin-top: 60px;
 }
 
 .hab .img-container{
-    padding: 40px;
-    margin-left: 78px;
+    padding: 60px;
+    margin-left: 10px;
 }
 
 .imagem-com-tooltip {
@@ -348,4 +352,86 @@ section.habilidades .flex{
     color: #2196f3;
     font-weight: bold; /*Deixa em negrito*/
     font-size: 40px;
+}
+
+
+
+
+/*------------------------------Projetinhus----------------------------------*/
+section.index-projetos{
+    padding: 30px 10%;
+}
+.title-projetos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-projetos h3{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.projects-container{
+    padding: 60px 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects{
+    padding: 15px 1%;
+    width: 300px;
+    height: 372px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 #2196f3;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projects:hover{
+    box-shadow: 0 8px 16px 0 #2196f3;
+}
+
+.projects-container h3{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.projects p{
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 14px;
+    
+}
+.projects p span{
+    color: #2196f3;
+    font-weight: bold;
+}
+
+
+.projects img{
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.projects a button{
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2196f3;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-weight: bold;
+    }
+
+.projects a button:hover{
+    box-shadow: 0px 0px 8px #2196f3;
+    transform: scale(1.05);
+    transition: 0.4s;
 }
