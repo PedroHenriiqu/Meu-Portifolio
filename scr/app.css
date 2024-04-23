@@ -376,6 +376,7 @@ section.habilidades .flex{
 }
 
 .imagem-com-tooltip {
+    position: relative;
     display: inline-block;
     justify-content: space-between;
     margin-right: 10px;
